@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.16;
  import "./IERC20.sol";
-contract beatvinTokenERC20Burnable is IERC20{
+contract BeatvinTokenERC20Burnable is IERC20{
     uint public totalSupply;
     mapping(address => uint) public balanceOf;
     mapping(address => mapping(address => uint)) public allowance;
